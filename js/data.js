@@ -40,21 +40,20 @@ var DATA = [
         image: "mvm_01.gif"
     },
     {
-        category: "installation",
-        title: "XYZ - D1SPL4C3 @ ROM",
-        subtitle: "generative art, endless form",
-        video: "",
-        text: "My first installation. Generated endless patterns projected to a canvas.",
-        image: "displace_01.gif"
-    },
-
-    {
         category: "mapping",
         title: "XYZ - RGB @ Pécs",
         subtitle: "projection mapping, contest",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/O3LIsRw2x8I' frameborder='0' allowfullscreen></iframe></div>",
         text: "The borning of digital light.",
         image: "zsolnay_01.gif"
+    },
+    {
+        category: "installation",
+        title: "XYZ - D1SPL4C3 @ ROM",
+        subtitle: "generative art, endless form",
+        video: "",
+        text: "My first installation. Generated endless patterns projected to a canvas.",
+        image: "displace_01.gif"
     },
     {
         category: "musicvideo",
