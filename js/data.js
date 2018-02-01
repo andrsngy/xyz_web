@@ -1,19 +1,19 @@
 var DATA = [
     {
         category: "installation",
-        title: "Konstellatio @ Helsinki",
-        subtitle: "audio visual, light art, light sculpture",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/251047337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
-        text: "Robot lamp design synchronized to Bordos László Zsolt projection artwork.",
-        image: "helsinki_01.gif"
-    },
-    {
-        category: "installation",
         title: "Heim Roland - Extension",
         subtitle: "story telling, chalk paint",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oLcf8sNiNdM' frameborder='0' allowfullscreen></iframe></div>",
         text: "A storytelling installation projected on HEIM ROLAND chalk drawings.",
         image: "heim_01.gif"
+    },
+    {
+        category: "installation",
+        title: "Konstellatio @ Helsinki",
+        subtitle: "audio visual, light art, light sculpture",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/251047337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
+        text: "Robot lamp design synchronized to Bordos László Zsolt projection artwork.",
+        image: "helsinki_01.gif"
     },
     {
         category: "mapping",
