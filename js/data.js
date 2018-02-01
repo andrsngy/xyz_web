@@ -1,21 +1,5 @@
 var DATA = [
     {
-        category: "musicvideo",
-        title: "Goromba - Illusion",
-        subtitle: "time symmetry, clock, illusion, monochrome",
-        text: "The very-very first animation I have ever created.",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/c79qkbJSveM' frameborder='0' allowfullscreen></iframe></div>",
-        image: "goromba_01.gif"
-    },
-    {
-        category: "liveset",
-        title: "Pantah du prince - LIVE @ Akvárium",
-        subtitle: "generative visual, live performance, mapping",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/125677492' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
-        text: "My first live visual performance with audio reactive 3D renders.",
-        image: "pantha_01.gif"
-    },
-    {
         category: "installation",
         title: "Konstellatio @ Helsinki",
         subtitle: "audio visual, light art, light sculpture",
@@ -71,6 +55,22 @@ var DATA = [
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/O3LIsRw2x8I' frameborder='0' allowfullscreen></iframe></div>",
         text: "The borning of digital light.",
         image: "zsolnay_01.gif"
+    },
+    {
+        category: "musicvideo",
+        title: "Goromba - Illusion",
+        subtitle: "time symmetry, clock, illusion, monochrome",
+        text: "The very-very first animation I have ever created.",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/c79qkbJSveM' frameborder='0' allowfullscreen></iframe></div>",
+        image: "goromba_01.gif"
+    },
+    {
+        category: "liveset",
+        title: "Pantah du prince - LIVE @ Akvárium",
+        subtitle: "generative visual, live performance, mapping",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/125677492' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
+        text: "My first live visual performance with audio reactive 3D renders.",
+        image: "pantha_01.gif"
     },
     {
         category: "liveset",
