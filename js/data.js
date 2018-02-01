@@ -1,7 +1,7 @@
 var DATA = [
     {
         category: "musicvideo",
-        title: "GOROMBA - Illusion",
+        title: "Goromba - Illusion",
         subtitle: "time symmetry, clock, illusion, monochrome",
         text: "The very-very first animation I have ever created.",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/c79qkbJSveM' frameborder='0' allowfullscreen></iframe></div>",
@@ -16,12 +16,20 @@ var DATA = [
         image: "pantha_01.gif"
     },
     {
-        category: "liveset",
-        title: "Colorstar - 20 year anniversary",
-        subtitle: "realtime sync, mapping, illusion",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/undefined' frameborder='0' allowfullscreen></iframe></div>",
-        text: "Live connection between Ableton live and Touchdesigner in realtime.",
-        image: "color_01.gif"
+        category: "installation",
+        title: "Konstellatio @ Helsinki",
+        subtitle: "audio visual, light art, light sculpture",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/251047337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
+        text: "Robot lamp design synchronized to Bordos László Zsolt projection artwork.",
+        image: "helsinki_01.gif"
+    },
+    {
+        category: "installation",
+        title: "Heim Roland - Extension",
+        subtitle: "story telling, chalk paint",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oLcf8sNiNdM' frameborder='0' allowfullscreen></iframe></div>",
+        text: "A storytelling installation projected on HEIM ROLAND chalk drawings.",
+        image: "heim_01.gif"
     },
     {
         category: "mapping",
@@ -40,16 +48,8 @@ var DATA = [
         image: "moscow_01.gif"
     },
     {
-        category: "musicvideo",
-        title: "Supernem - Van",
-        subtitle: "post FX, audio reactive",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/at5COmu4y80' frameborder='0' allowfullscreen></iframe></div>",
-        text: "",
-        image: "supernem_01.gif",
-    },
-    {
         category: "mapping",
-        title: "MVM @ BAZILIKA",
+        title: "MvM @ BazilikaA",
         subtitle: "realtime, 4K, generative, audio reactive",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/201538337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "4K audio reactive mapping for a János Balázs concert.",
@@ -63,22 +63,7 @@ var DATA = [
         text: "My first installation. Generated endless patterns projected to a canvas.",
         image: "displace_01.gif"
     },
-    {
-        category: "liveset",
-        title: "STEREO NIGHT @ Geneva",
-        subtitle: "3D stereoscopic, audio reactive visual",
-        video: "",
-        text: "The closing event of mapping festival I had a chance to make stereoscopic visual with other hungarian artists.",
-        image: "stereo_01.jpg"
-    },
-    {
-        category: "installation",
-        title: "HEIM ROLAND - Extension",
-        subtitle: "story telling, chalk paint",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oLcf8sNiNdM' frameborder='0' allowfullscreen></iframe></div>",
-        text: "A storytelling installation projected on HEIM ROLAND chalk drawings.",
-        image: "heim_01.gif"
-    },
+
     {
         category: "mapping",
         title: "XYZ - RGB @ Pécs",
@@ -88,8 +73,24 @@ var DATA = [
         image: "zsolnay_01.gif"
     },
     {
+        category: "liveset",
+        title: "Colorstar - 20 year anniversary",
+        subtitle: "realtime sync, mapping, illusion",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/undefined' frameborder='0' allowfullscreen></iframe></div>",
+        text: "Live connection between Ableton live and Touchdesigner in realtime.",
+        image: "color_01.gif"
+    },
+    {
+        category: "musicvideo",
+        title: "Supernem - Van",
+        subtitle: "post FX, audio reactive",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/at5COmu4y80' frameborder='0' allowfullscreen></iframe></div>",
+        text: "",
+        image: "supernem_01.gif"
+    },
+    {
         category: "lightart",
-        title: "Vendôme @ Marseille",
+        title: "Start row index @ Marseille",
         subtitle: "projection mapping, light art, programming",
         video: "",
         text: "I built a 2 dimension video content converter to robot lamp 3D movements.",
@@ -104,11 +105,11 @@ var DATA = [
         image: "aurora_01.jpg"
     },
     {
-        category: "installation",
-        title: "Konstellatio @ Helsinki",
-        subtitle: "audio visual, light art, light sculpture",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/251047337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
-        text: "Robot lamp design synchronized to Bordos László Zsolt projection artwork.",
-        image: "helsinki_01.gif"
+        category: "liveset",
+        title: "Stereo Night @ Geneva",
+        subtitle: "3D stereoscopic, audio reactive visual",
+        video: "",
+        text: "The closing event of Mapping festival I had a chance to make stereoscopic visual with other hungarian artists.",
+        image: "stereo_01.jpg"
     },
 ]
