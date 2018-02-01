@@ -1,115 +1,75 @@
-var alphabet = {
-    a: 4,
-    e: 3,
-    s: 5,
-    b: 8,
-    o: 0,
-    z: 7,
-    i: 1
-}
+'use strict';
 
-var data = $.getScript("../js/data.js", function (data, textStatus, jqxhr) {
-    return data;
-}).then(function (data) {
-    return fullData;
-});
-
-var introVideo = document.querySelector('.video video');
-var projectList = document.querySelector('#works');
-var singleProject = document.querySelector('#project');
-
-if (introVideo) {
-    introVideo.addEventListener('ended', function () {
-        console.log('ended');
-        $('.video').css('cursor', 'pointer');
-        $('.video').on('click', function () {
-            var loc = window.location.href;
-            window.location.href = loc + 'works';
-        })
-        $('.click-anywhere').fadeIn();
-    })
-}
-
-function mixLetters(e) {
-    var content = Array.from($(e.target).html().toLowerCase());
-    content.forEach(function (item, index) {
-        if (alphabet[item]) {
-            content.splice(index, 1, alphabet[item]);
-            $(e.target).html(content.join(''));
-        }
-    })
-}
-
-function returnLetters(e) {
-    var original = $(e.target).attr('data-original');
-    $(e.target).html(original);
-}
-
-$('a').on('mouseover', function (e) {
-    mixLetters(e);
-})
-
-$('a').on('mouseleave', function (e) {
-    returnLetters(e);
-});
-
-$('.initiator').on('mouseenter mouseleave', function (e) {
-    $('.receiver').trigger(e.type);
-})
-
-
-
-if (projectList) {
-    data.then(function (data) {
-        var divs = data.map(function (object, index) {
-            return `
-                    <div class="col-sm-6">
-                        <div class="project-list-img" style="background-image: url(../img/${data[index].hero_img})">
-                            <div class="project-list-title">
-                                <a data-original="${data[index].title}" data-target="${data[index].post_number}">${data[index].title}</a>
-                            </div>
-                        </div>
-                    </div>
-                `
-        })
-
-        $('#works').html(divs.join(''));
-    })
-        .then(function () {
-            $('.project-list-title a').each(function () {
-                $(this).on('mouseover', function (e) {
-                    mixLetters(e);
-                })
-                $(this).on('mouseleave', function (e) {
-                    returnLetters(e);
-                })
-                $(this).on('click', function (e) {
-                    e.preventDefault();
-                    var data = $(e.target).attr('data-target');
-                    var loc = window.location.href;
-                    window.location.href = '/project/#' + data;
-                })
-            })
-            $('.project-list-img').on('mouseenter mouseleave click', function (e) {
-                $(e.target).children('.project-list-title').children('a').trigger(e.type);
-            })
-        })
-}
-
-if (singleProject) {
-    (function () {
-        var target = window.location.href.split('#')[1];
-        data.then(function (data) {
-            return data[target - 1];
-        }).then(function (data) {
-            console.log(data);
-            $('.project-hero').css('background-image', 'url(../img/' + data.hero_img + ')');
-            $('.project-text').html('<h2>' + data.title + '</h2><p>' + data.text + '</p>');
-            if (data.imgs.length >= 1) {
-                data.imgs.forEach(function (item) {
-                    $('.project-imgs').append('<img class="img-responsive" src="../img/' + item.img_url + '"><p>' + item.img_caption + '</p>');
-                })
+var main = function () {
+    var state = {};
+    var data = DATA;
+    return {
+        renderProjects: function renderProjects(filter) {
+            var d = JSON.parse(JSON.stringify(data));
+            if (filter && filter !== "all") {
+                d = data.filter(function (project) {
+                    return project.category === filter.split(' ').join('');
+                });
             }
-        });
-    })();
-}
+            var content = d.map(function (project, i) {
+                return '\n                <div class="project-item" data-id="' + i + '" data-filter="' + project.category + '">\n                    <div class="project-item-inner" style="background-image: url(/img/' + project.image + ')"></div>\n                    <div class="project-item-title">' + project.title + '</div>\n                </div>\n                ';
+            }).join('');
+            $('.projects').html(content);
+        },
+        highlightProjects: function highlightProjects(filter) {
+            var d = JSON.parse(JSON.stringify(data));
+            $('.project-item').removeClass('fade');
+            $('.project-item').addClass('faded');
+            $('.project-item').removeClass('highlighted');
+            if (filter && filter !== "all") {
+                $('[data-filter=' + filter + ']').removeClass('faded');
+                $('[data-filter=' + filter + ']').addClass('highlighted');
+            } else {
+                $('.project-item').removeClass('highlighted');
+                $('.project-item').removeClass('faded');
+            }
+        },
+        renderProject: function renderProject(id) {
+            var project = data[id];
+            console.log(project);
+            if (!project.video.length) {
+                $('.project-header').html('<img class="img-responsive" src="/img/' + project.image + '">');
+            } else {
+                $('.project-header').html(project.video);
+            }
+            $('.project-text').html('\n                <p><b>' + project.title + '</b><br>' + project.subtitle + '</p>\n                <p>' + project.text + '</p>\n            ');
+            $('html, body').animate({
+                scrollTop: $('.project-holder').offset().top
+            }, 500);
+        },
+        init: function init() {
+            main.renderProjects();
+        }
+    };
+}();
+
+main.init();
+
+$('.categories span').click(function () {
+    $('.categories span').removeClass('active');
+    $(this).addClass('active');
+    var filter = $(this).text().split(' ').join('').split('#')[1];
+    main.highlightProjects(filter);
+});
+
+$('.project-item').click(function () {
+    var id = $(this).attr('data-id');
+    $('.project-header').html('');
+    $('.project-text').html('');
+    main.renderProject(id);
+});
+
+$('.project-item').on('mouseover', function () {
+    $('.project-item').addClass("fade");
+    $(this).removeClass('fade');
+});
+$('.project-item').on('mouseleave', function () {
+    $('.project-item').removeClass("fade");
+});
+
+$('#email').html('info@andrasnagy.xyz');
