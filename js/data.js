@@ -65,6 +65,14 @@ var DATA = [
         image: "goromba_01.gif"
     },
     {
+        category: "musicvideo",
+        title: "Supernem - Van",
+        subtitle: "post FX, audio reactive",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/at5COmu4y80' frameborder='0' allowfullscreen></iframe></div>",
+        text: "",
+        image: "supernem_01.gif"
+    },
+    {
         category: "liveset",
         title: "Pantah du prince - LIVE @ Akvárium",
         subtitle: "generative visual, live performance, mapping",
@@ -79,14 +87,6 @@ var DATA = [
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/undefined' frameborder='0' allowfullscreen></iframe></div>",
         text: "Live connection between Ableton live and Touchdesigner in realtime.",
         image: "color_01.gif"
-    },
-    {
-        category: "musicvideo",
-        title: "Supernem - Van",
-        subtitle: "post FX, audio reactive",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/at5COmu4y80' frameborder='0' allowfullscreen></iframe></div>",
-        text: "",
-        image: "supernem_01.gif"
     },
     {
         category: "lightart",
