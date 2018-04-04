@@ -1,5 +1,21 @@
 var DATA = [
     {
+        category: "mapping",
+        title: "LIMELIGHT - EVERGREEN @ SINGAPORE",
+        subtitle: "projection mapping, 3D",
+        video: "<iframe width="560" height="315" src="https://www.youtube.com/embed/a5dNqtppMW8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>,
+        text: "1 minute animation about digital chaos turn into harmony for Limelight projection mapping.",
+        image: "limelight_sing_01.jpg"
+    },
+    {
+        category: "mapping",
+        title: "LIMELIGHT - WHAT IF @ MELBOURNE",
+        subtitle: "projection mapping, 3D",
+        video: "<iframe width="560" height="315" src="https://www.youtube.com/embed/1pg_yN3qkOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>",
+        text: "1 minute animation about connection for Limelight projection mapping.",
+        image: "limelight_melb_01.jpg"
+    },
+    {
         category: "installation",
         title: "HEIM ROLAND - EXTENSION",
         subtitle: "story telling, chalk paint",
