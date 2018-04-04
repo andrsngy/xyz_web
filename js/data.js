@@ -1,7 +1,7 @@
 var DATA = [
     {
         category: "installation",
-        title: "Heim Roland - Extension",
+        title: "HEIM ROLAND - EXTENSION",
         subtitle: "story telling, chalk paint",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/oLcf8sNiNdM' frameborder='0' allowfullscreen></iframe></div>",
         text: "A storytelling installation projected on HEIM ROLAND chalk drawings.",
@@ -9,7 +9,7 @@ var DATA = [
     },
     {
         category: "installation",
-        title: "Konstellatio @ Helsinki",
+        title: "KONSTELLATIO @ HELSINKI",
         subtitle: "audio visual, light art, light sculpture",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/251047337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "Robot lamp design synchronized to Bordos László Zsolt projection artwork.",
@@ -17,7 +17,7 @@ var DATA = [
     },
     {
         category: "mapping",
-        title: "MoonLight Vision - Reality quantized @ MTA Budapest",
+        title: "REALITY QUANTIZED @ MTA BUDAPEST",
         subtitle: "projection mapping, 3D",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/145723561' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "My first individual experiment with 3D projection mapping.",
@@ -25,7 +25,7 @@ var DATA = [
     },
     {
         category: "mapping",
-        title: "Artvision @ Moscow",
+        title: "ARTVISION @ MOSCOW",
         subtitle: "projection mapping",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/NE7u9alHZ8c' frameborder='0' allowfullscreen></iframe></div>",
         text: "My first story telling mapping for a contest.",
@@ -33,7 +33,7 @@ var DATA = [
     },
     {
         category: "mapping",
-        title: "MvM @ BazilikaA",
+        title: "MVM @ BAZILIKA",
         subtitle: "realtime, 4K, generative, audio reactive",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/201538337' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "4K audio reactive mapping for a János Balázs concert.",
@@ -49,7 +49,7 @@ var DATA = [
     },
     {
         category: "musicvideo",
-        title: "Goromba - Illusion",
+        title: "GOROMBA - ILLUSION",
         subtitle: "time symmetry, clock, illusion, monochrome",
         text: "The very-very first animation I have ever created.",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/c79qkbJSveM' frameborder='0' allowfullscreen></iframe></div>",
@@ -57,7 +57,7 @@ var DATA = [
     },
     {
         category: "mapping",
-        title: "XYZ - RGB @ Pécs",
+        title: "XYZ - RGB @ PÉCS",
         subtitle: "projection mapping, contest",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/O3LIsRw2x8I' frameborder='0' allowfullscreen></iframe></div>",
         text: "The borning of digital light.",
@@ -65,7 +65,7 @@ var DATA = [
     },
     {
         category: "musicvideo",
-        title: "Supernem - Van",
+        title: "SUPERNEM - VAN",
         subtitle: "post FX, audio reactive",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/at5COmu4y80' frameborder='0' allowfullscreen></iframe></div>",
         text: "",
@@ -73,7 +73,7 @@ var DATA = [
     },
     {
         category: "liveset",
-        title: "Pantah du prince - LIVE @ Akvárium",
+        title: "PANTHA DU PRINCE - LIVE @ AKVÁRIUM",
         subtitle: "generative visual, live performance, mapping",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/125677492' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "My first live visual performance with audio reactive 3D renders.",
@@ -81,7 +81,7 @@ var DATA = [
     },
     {
         category: "liveset",
-        title: "Colorstar - 20 year anniversary",
+        title: "COLORSTAR - 20 YEAR ANNIVERSARY",
         subtitle: "realtime sync, mapping, illusion",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/undefined' frameborder='0' allowfullscreen></iframe></div>",
         text: "Live connection between Ableton live and Touchdesigner in realtime.",
@@ -89,7 +89,7 @@ var DATA = [
     },
     {
         category: "lightart",
-        title: "Start row index @ Marseille",
+        title: "START ROW INDEX @ MARSEILLE",
         subtitle: "projection mapping, light art, programming",
         video: "",
         text: "I built a 2 dimension video content converter to robot lamp 3D movements.",
@@ -97,7 +97,7 @@ var DATA = [
     },
     {
         category: "installation",
-        title: "Aurora Borealis @ Budapest",
+        title: "AURORA BOREALIS @ BUDAPEST",
         subtitle: "light art, programming, audio reaction",
         video: "",
         text: "Audio reactive robot lamp programming for Suomi 100 event.",
@@ -105,7 +105,7 @@ var DATA = [
     },
     {
         category: "liveset",
-        title: "Stereo Night @ Geneva",
+        title: "STEREO NIGHT @ GENEVA",
         subtitle: "3D stereoscopic, audio reactive visual",
         video: "",
         text: "The closing event of Mapping festival I had a chance to make stereoscopic visual with other hungarian artists.",
