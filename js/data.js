@@ -127,12 +127,4 @@ var DATA = [
         text: "Audio reactive robot lamp programming for Suomi 100 event.",
         image: "aurora_01.jpg"
     },
-    {
-        category: "liveset",
-        title: "STEREO NIGHT @ GENEVA",
-        subtitle: "3D stereoscopic, audio reactive visual",
-        video: "",
-        text: "The closing event of Mapping festival I had a chance to make stereoscopic visual with other hungarian artists.",
-        image: "stereo_01.jpg"
-    },
 ]
