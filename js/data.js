@@ -8,14 +8,6 @@ var DATA = [
         image: "limelight_sing_01.jpg"
     },
     {
-        category: "liveset",
-        title: "PRESENSE LIVE ACT - STELLAR @ SZIMPLA KERT",
-        subtitle: "generative visual, live performance, mapping",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OADnn88NNxo' frameborder='0' allowfullscreen></iframe></div>",
-        text: "Lemming Program, Video: Multimilliomos Dzsesszdobos, Sound mixing: Kopcsik Márton, Sound Recording: Varga Mátyás",
-        image: "presense_szimpla_01.jpg"
-    },
-    {
         category: "installation",
         title: "HEIM ROLAND - EXTENSION",
         subtitle: "story telling, chalk paint",
@@ -46,6 +38,14 @@ var DATA = [
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/145723561' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "My first individual experiment with 3D projection mapping.",
         image: "mta_01.gif"
+    },
+    {
+        category: "liveset",
+        title: "PRESENSE LIVE ACT - STELLAR @ SZIMPLA KERT",
+        subtitle: "generative visual, live performance, mapping",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OADnn88NNxo' frameborder='0' allowfullscreen></iframe></div>",
+        text: "Lemming Program, Video: Multimilliomos Dzsesszdobos, Sound mixing: Kopcsik Márton, Sound Recording: Varga Mátyás",
+        image: "presense_szimpla_01.jpg"
     },
     {
         category: "mapping",
