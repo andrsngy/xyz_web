@@ -45,7 +45,7 @@ var DATA = [
         subtitle: "generative visual, live performance, mapping",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/OADnn88NNxo' frameborder='0' allowfullscreen></iframe></div>",
         text: "Lemming Program, Video: Multimilliomos Dzsesszdobos, Sound mixing: Kopcsik Márton, Sound Recording: Varga Mátyás",
-        image: "presense_szimpla_01.jpg"
+        image: "presense_szimpla_01.gif"
     },
     {
         category: "mapping",
