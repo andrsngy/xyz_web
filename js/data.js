@@ -1,19 +1,19 @@
 var DATA = [
     {
-        category: "performance",
-        title: "ATMODANCE -  Story Of Eternity",
-        subtitle: "interactive mapping atmodance",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//DqTW6-jay3s' frameborder='0' allowfullscreen></iframe></div>",
-        text: "Twisting around",
-        image: "atmodance.jpg"
-    },
-    {
         category: "installation",
         title: "WE SENSE",
         subtitle: "interactive shadow installation",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/276206820' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>",
         text: "An interactive installation without any sensor. Dance performance by: Linda Telek, Anna Szilvási",
         image: "we_sense_01.jpg"
+    },
+    {
+        category: "performance",
+        title: "ATMODANCE -  Story Of Eternity",
+        subtitle: "interactive mapping atmodance",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//DqTW6-jay3s' frameborder='0' allowfullscreen></iframe></div>",
+        text: "Twisting around",
+        image: "atmodance.jpg"
     },
     {
         category: "mapping",
