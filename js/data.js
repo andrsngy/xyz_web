@@ -12,7 +12,7 @@ var DATA = [
         title: "ATMODANCE - STORY OF ETERNITY // 2018",
         subtitle: "visual mapping atmodance",
         video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//DqTW6-jay3s' frameborder='0' allowfullscreen></iframe></div>",
-        text: "Presented by the MAD Company, the first wind theatre on Earth. <br>More on their website: <a href='http:www.mad.company'> http://mad.company </a> <br><br>Atmodancer: Inka Tiitto<br>Choreographer: Inka Tiitto & Yulia Oko<br>Director: László L. Laki<br>Music: Kai Engel<br>Light design: Balázs Nagy<br>Visual: Andras Nagy",
+        text: "Presented by the MAD Company, the first wind theatre on Earth. <br>More on their website: <a href='http://mad.company'> http://mad.company </a> <br><br>Atmodancer: Inka Tiitto<br>Choreographer: Inka Tiitto & Yulia Oko<br>Director: László L. Laki<br>Music: Kai Engel<br>Light design: Balázs Nagy<br>Visual: Andras Nagy",
         image: "atmodance.jpg"
     },
     {
