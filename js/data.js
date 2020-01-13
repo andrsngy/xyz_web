@@ -32,10 +32,18 @@ var DATA = [
         image: "heim_01.gif"
     },
     {
+        category: "liveset",
+        title: "RAMPAGE - BILLAIN // 2018",
+        subtitle: "light design, visuals",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/TXo3m3qZ2e4' frameborder='0' allowfullscreen></iframe></div>",
+        text: "Visuals & Concept: Hyperbinary studio & XYZ<br> Light programming: Andras Nagy",
+        image: "billain.jpg"
+    },
+    {
         category: "mapping",
         title: "LIMELIGHT - WHAT IF @ MELBOURNE // 2018",
         subtitle: "projection mapping, 3D",
-        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/1pg_yN3qkOU' frameborder='0' allowfullscreen></iframe></div>",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/F1lzhKnFZQk' frameborder='0' allowfullscreen></iframe></div>",
         text: "Creative concept: István Dávid, Csaba Világosi, Viktor Vicsek<br>Art Director: Csaba Világosi<br>Technical supervisor: Viktor Vicsek<br>3D modeling: Dániel Szalkó<br>Producer: István Dávid<br>Music: AMB<pr>Sound design: Fine Cut Bodies",
         image: "limelight_melb_01.jpg"
     },
