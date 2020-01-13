@@ -12,6 +12,10 @@ body {
     max-width: 1200px;
 }
 
+.content {
+    min-height: 100vh;
+}
+
 .navbar {
     padding: 10px 0;
 }
