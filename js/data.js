@@ -1,5 +1,13 @@
 var DATA = [
     {
+        category: "musicvideo",
+        title: "EITAN REITER - OVERVIEW // 2020",
+        subtitle: "music video clip",
+        video: "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/raIYoFd2dXs' frameborder='0' allowfullscreen></iframe></div>",
+        text: "Music by: Eitan Reiter <br>Visuals & Concept: XYZ",
+        image: "eitan.jpg"
+    },
+    {
         category: "installation",
         title: "XYZ - WE SENSE // 2018",
         subtitle: "interactive shadow installation",
